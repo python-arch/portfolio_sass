@@ -1,0 +1,31 @@
+@include media-sm {
+  .home {
+    h2 {
+      font-size: 16px;
+    }
+
+    &_name {
+      font-size: 30px;
+    }
+  }
+  .about {
+    &_bio {
+      font-size: 14px;
+    }
+  }
+  .jobs {
+    &_job {
+      font-size: 13px;
+      padding: 0;
+      width: 75vw;
+    }
+  }
+  .contact {
+    h2 {
+      font-size: 25px;
+    }
+    &_list {
+      font-size: 20px;
+    }
+  }
+}
